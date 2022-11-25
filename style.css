@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: gray;
+}
+
+.search-box{
+    margin: auto;
+    width: 80%;
+    border: 2px solid white;
+    margin-top: 3%;
+    padding: 10px;
+}
+
+.search-box h2{
+    /* color: rgb(5, 5, 136); */
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.search-box input{
+    font-size: large;
+    width: 25%;
+    height: 40px;
+}
+
+.search-box button{
+    width: 10%;
+    height: 40px;
+}
+
+.gole{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    background-color: aliceblue;
+    width: 25%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.circle-1{
+    border: 2px solid gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle-2{
+    border: 2px solid pink;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle-3{
+    border: 2px solid blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle-4{
+    border: 2px solid rgb(55, 253, 55);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle-5{
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.gray{
+    background-color: rgb(156, 155, 155);
+}
+
+.pink{
+    background-color: rgb(247, 183, 193);
+}
+
+.blue{
+    background-color: rgb(83, 83, 250);
+}
+
+.green{
+    background-color: rgb(123, 255, 123);
+}
+
+.black{
+    background-color: rgb(32, 32, 32);
+}
+
+
+
+.darkgray{
+    color: rgb(88, 88, 88);
+}
+
+.darkpink{
+    color: rgb(255, 58, 91);
+}
+
+.darkblue{
+    color: rgb(4, 4, 155);
+}
+
+.darkgreen{
+    color: rgb(2, 223, 2);
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    padding: 35px;
+}
